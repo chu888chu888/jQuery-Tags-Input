@@ -197,7 +197,7 @@
 				$(this).hide();				
 			}
 			var id = $(this).attr('id');
-			if (!id || delimiter[$(this).attr('id')]) {
+			if (!id ) {
 				id = $(this).attr('id', 'tags' + new Date().getTime()).attr('id');
 			}
 			
